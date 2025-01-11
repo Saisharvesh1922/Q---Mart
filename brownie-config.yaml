@@ -1,0 +1,19 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.9.0
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.9.0'
+
+dotenv: .env
+
+networks:
+  default: development
+  development:
+    host: http://127.0.0.1
+    port: 8545
+    gas_limit: auto
+  polygon-mainnet:
+    host: https://polygon-rpc.com
+    chain_id: 137
+    gas_limit: auto
