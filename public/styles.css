@@ -1,0 +1,41 @@
+/* Reset some basic elements */
+* {
+    
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    padding-top: 50px; /* Space for navbar if needed */
+  }
+  
+  .container {
+    max-width: 800px;
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styles */
+  .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+  
+  /* Add some space between elements */
+  .mt-4 {
+    margin-top: 30px;
+  }
+  
+  /* Add some padding to the container */
+  .text-center {
+    text-align: center;
+  }
+  
